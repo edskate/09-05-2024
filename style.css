@@ -1,0 +1,21 @@
+.titulos{
+    color: blue;
+    text-align: center;
+
+}
+.item{
+    margin: 5px;
+    background-color: rgb(177, 122, 228);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.coluna{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+
+}
+.linha{
+    grid-template-rows: 200px 100px 50px 100px;
+}
